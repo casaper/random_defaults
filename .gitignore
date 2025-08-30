@@ -1,0 +1,14 @@
+# macOS - the two lines after Icon[ are required
+Icon[
+]
+
+._*
+.DS_Store
+__MACOSX/
+.AppleDouble
+.LSOverride
+# Linux
+*~
+.Trash-*
+.directory
+.fuse_hidden*
