@@ -16,3 +16,4 @@ pnpm-workspace.yaml
 .angular
 dist
 coverage
+tsconfig*.json
