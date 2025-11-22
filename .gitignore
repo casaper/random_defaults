@@ -1,7 +1,4 @@
-# macOS - the two lines after Icon[ are required
-Icon[
-]
-
+# macOS
 ._*
 .DS_Store
 __MACOSX/
