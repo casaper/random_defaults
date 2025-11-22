@@ -14,7 +14,7 @@ insert_final_newline = true
 [{*.{md,mdx,markdown,yaml,yml},.{git,stylelint,docker}ignore,.env*}]
 trim_trailing_whitespace = false
 
-[{*.{json,jsonc,umap,geojson,{prettier,nvm}{rc,ignore}},{yarn,Gemfile}.lock}]
+[{*.{json,jsonc,umap,geojson,{prettier,nvm}{rc,ignore}},{yarn,Gemfile}.lock,tsconfig*.json}]
 insert_final_newline = false
 trim_trailing_whitespace = false
 
