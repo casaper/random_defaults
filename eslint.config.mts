@@ -51,6 +51,12 @@ export default defineConfig([
   eslintPluginPrettierRecommended,
   tseslint.configs.recommended,
   {
+    files: ['**/*.{js,mjs,cjs,ts,mts,cts,json,jsonc,json5}'],
+    rules: {
+      'prettier/prettier': 'error',
+    },
+  },
+  {
     files: ['**/*.json'],
     plugins: { json },
     language: 'json/json',
